@@ -24,7 +24,7 @@ namespace {
 // Header:  {"alg":"RS256","typ":"JWT"}
 // Payload:
 // {"iss":"https://example.com","sub":"test@example.com","exp":1501281058}
-const std::string JwtPemRs256 =
+constexpr std::string JwtPemRs256 =
     "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9."
     "eyJpc3MiOiJodHRwczovL2V4YW1wbGUuY29tIiwic3ViIjoidGVzdEBleGFtcGxlLmNvbSIs"
     "ImV4cCI6MTUwMTI4MTA1OH0.FxT92eaBr9thDpeWaQh0YFhblVggn86DBpnTa_"
@@ -38,7 +38,7 @@ const std::string JwtPemRs256 =
 // Header:  {"alg":"RS384","typ":"JWT"}
 // Payload:
 // {"iss":"https://example.com","sub":"test@example.com","exp":1501281058}
-const std::string JwtPemRs384 =
+constexpr std::string JwtPemRs384 =
     "eyJhbGciOiJSUzM4NCIsInR5cCI6IkpXVCJ9."
     "eyJpc3MiOiJodHRwczovL2V4YW1wbGUuY29tIiwic3ViIjoidGVzdEBleGFtcGxlLmNvbSIs"
     "ImV4cCI6MTUwMTI4MTA1OH0.NvinWcCVmBAmbK5FnAPt8gMBSWOU9kjTEIxcDqJBzjB6nKGj"
@@ -52,7 +52,7 @@ const std::string JwtPemRs384 =
 // Header:  {"alg":"RS512","typ":"JWT"}
 // Payload:
 // {"iss":"https://example.com","sub":"test@example.com","exp":1501281058}
-const std::string JwtPemRs512 =
+constexpr std::string JwtPemRs512 =
     "eyJhbGciOiJSUzUxMiIsInR5cCI6IkpXVCJ9."
     "eyJpc3MiOiJodHRwczovL2V4YW1wbGUuY29tIiwic3ViIjoidGVzdEBleGFtcGxlLmNvbSIs"
     "ImV4cCI6MTUwMTI4MTA1OH0.BaBGWBS5ZhOX7o0LlAYqnnS-rME0E_eAjnCzPolSY5oh-Mic"
@@ -62,7 +62,7 @@ const std::string JwtPemRs512 =
     "yx3cF3odgb8PPLRBEOxD6HwJzmvbYmkjmgLuE5vb5lLEacyn2I1ko7e-Hlzvp_ezST0wknz5"
     "wadrCQ";
 
-const std::string PublicKeyPem =
+constexpr std::string PublicKeyPem =
     "MIIBCgKCAQEAtw7MNxUTxmzWROCD5BqJxmzT7xqc9KsnAjbXCoqEEHDx4WBlfcwk"
     "XHt9e/2+Uwi3Arz3FOMNKwGGlbr7clBY3utsjUs8BTF0kO/poAmSTdSuGeh2mSbc"
     "VHvmQ7X/kichWwx5Qj0Xj4REU3Gixu1gQIr3GATPAIULo5lj/ebOGAa+l0wIG80N"
